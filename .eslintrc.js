@@ -19,6 +19,7 @@ module.exports = {
     'indent': ['error', 2],
     'no-multi-spaces': ['error'],
     'no-trailing-spaces': ['error'],
-    'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0 }]
+    'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0 }],
+    'object-curly-spacing': ['error', 'always']
   }
 };
